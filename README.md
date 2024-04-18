@@ -22,5 +22,5 @@ This is a simple profile card project created using HTML, CSS, and a bit of Java
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/profile-card.git
+   git clone https://github.com/aa-sikkkk/profileCard.git
 2. Download Liver Server Extension and open the page!
