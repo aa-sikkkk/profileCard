@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
+@font-face {
+    font-family: avatar;
+    src: url(/images/avatar.ttf);
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -103,16 +108,17 @@ body {
     font-size: 15px;
 }
 
-.profile-info h1 {
-    text-align: center;
-    animation: slideIn 1s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
-    animation-delay: 1.4s;
-    font-size: 18px;
-}
 
 .name {
     margin: 0;
     color: #ffffff;
+    text-align: center;
+    animation: slideIn 1s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
+    animation-delay: 1.4s;
+    font-size: 30px;
+    font-weight: 100;
+    -webkit-text-stroke: #000000;
+    font-family: avatar;
 }
 
 .bio {
