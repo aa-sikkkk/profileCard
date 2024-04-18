@@ -5,7 +5,7 @@ body {
     padding: 0;
     font-family: 'Poppins', sans-serif;
     background-color: #000000;
-    overflow: hidden;
+    
 }
 
 .background-video {
@@ -23,6 +23,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    margin-top: 50px;
+    margin-bottom: 60px;
     animation: fadeIn 1s ease-out forwards;
 }
 
@@ -36,10 +38,11 @@ body {
 }
 
  .profile-card {
-        max-width: 400px;
+        max-width: 310px; 
         background-color: rgba(0, 0, 0, 0.5); 
         border-radius: 20px;
         padding: 20px;
+        padding-top: 20px;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
         animation: slideIn 1s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
         animation-delay: 0.5s;
@@ -67,8 +70,8 @@ body {
 }
 
 .profile-picture {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     overflow: hidden;
     margin-bottom: 20px;
@@ -97,6 +100,14 @@ body {
     text-align: center;
     animation: slideIn 1s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
     animation-delay: 1.4s;
+    font-size: 15px;
+}
+
+.profile-info h1 {
+    text-align: center;
+    animation: slideIn 1s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
+    animation-delay: 1.4s;
+    font-size: 18px;
 }
 
 .name {
@@ -115,8 +126,7 @@ body {
     background-color: #203a3a;
     width: 95%;
     text-align: left;
-    padding: 10px;
-    margin-top: 30px;
+    padding: 5px;
     color: #ffffff;
     animation: slideIn 1s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
     animation-delay: 1.7s;
