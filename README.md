@@ -1,6 +1,6 @@
 # Profile Card
 
-This is a simple profile card project created using HTML, CSS, and a bit of JavaScript. It showcases a profile picture, name, bio, skills, and social links in a visually appealing manner.
+This is a simple profile card project created using HTML & CSS. It showcases a profile picture, name, bio, skills, and social links in a visually appealing manner.
 
 ## Preview
 ![Profile-Card (1)](https://github.com/aa-sikkkk/profileCard/assets/152005759/e065acb8-215a-46ff-a7e6-d07eb652ff29)
