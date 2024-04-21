@@ -28,7 +28,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin-top: 50px;
+    margin-top: 80px;
     margin-bottom: 60px;
     animation: fadeIn 1s ease-out forwards;
 }
